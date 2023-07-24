@@ -5,7 +5,7 @@
 
 body{
     background: #F8F1F1;
-    font-size: 2em;
+    font-size: 1em;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -15,13 +15,14 @@ body{
     background-color: #E57C23;
     padding: 20px;
     border-top:  solid 15px;
-    border-color: #b0a4ab;
+    border-color: #f1c8a4;
 }
 
 #logo{
-    font-size: 2.1em;
     text-align: center;
     padding: 5px;
+}
+.branco{
     color: #F8F1F1;
 }
 
@@ -46,3 +47,33 @@ body{
 
 /*Fim cabeçalho*/
 
+/*Início conteudo*/
+#area_conteudo{
+    width: 920px;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+.conteodo_principal{
+    background-color: white;
+    width: 660px;
+    float: left;
+}
+
+.display_direito{
+    background-color: #E57C23;
+    width: 240px;
+    float: right;    
+}
+
+.conteudo{
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+p{
+    text-align: justify;
+    padding: 5px 10px;
+}
+/*Fim conteudo*/
